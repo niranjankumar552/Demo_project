@@ -27,15 +27,16 @@ a:hover{
 	margin: 20px auto; 
 }
 
-.header{
+/*.header{
 	color: white;
 	background-color: #3867d6;
-}
+}*/
 
 .logo{
 	font-size: 2rem;
 	margin-top: 5px;
 }
+
 
 .menu{
 	list-style: none;
@@ -47,17 +48,27 @@ a:hover{
 	display: inline-block;
 }
 
-.menu li a {
+.menu .nav-item .nav-link {
 	color: #fff;	
 	padding: 15px 10px;
 	display: block;
 }
 
 .menu li a:hover{
-	background: #4b7bec;
+	background: #2566fc;
 
 }
 
+.custom-span .icon-m{
+	border: 1px solid white;
+	color: white;
+	font-size: 30px;
+	margin: 5px 0;
+	padding: 10px;
+	line-height: 1rem;
+
+
+}
 .banner{
 	background: url('images/heading.jpg') no-repeat 0 0;
 	background-size: cover;
@@ -219,14 +230,14 @@ footer{
 
 @media (max-width: 768px){
 
-		.logo{
+		/*.logo{
 			text-align: center;
 			margin: 10px 0;
-		}
+		}*/
 
-		.menu{
+		/*.menu{
 			text-align: center;
-		}
+		}*/
 
 		.banner-title{
 			padding-top: 0;
