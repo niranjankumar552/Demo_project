@@ -1,6 +1,8 @@
 *{
 	padding: 0;
 	margin: 0;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a:hover{
@@ -62,9 +64,9 @@ a:hover{
 .custom-span .icon-m{
 	border: 1px solid white;
 	color: white;
-	font-size: 30px;
-	margin: 5px 0;
-	padding: 10px;
+	font-size: 24px;
+	margin: 5px auto;
+	padding: 7px;
 	line-height: 1rem;
 
 
@@ -254,15 +256,15 @@ footer{
 		}
 
 
-	.testimonialss{
-		text-align: center;
+		.testimonialss{
+			text-align: center;
+		}
+		footer{
+			text-align: center;
+		}
+		.social-icon{
+			margin-top: 10px;
+		}
 	}
-	footer{
-		text-align: center;
-	}
-	.social-icon{
-		margin-top: 10px;
-	}
-}
 
 
